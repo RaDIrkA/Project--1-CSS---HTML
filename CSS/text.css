@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@charset "utf-8";
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+	/*Glava*/
+article p {
+	color:#FFF; font-size:14px; letter-spacing:3px;
+	font-family:ArchitectsDaughter; cursor:default; right:-5px; position:relative;
+}
+article h1 {
+	color:#FFF; font-size:14px; letter-spacing:3px;
+	font-family:ArchitectsDaughter; cursor:default; right:-5px; position:relative;
+}
+#container h1 {
+	position:absolute;
+	color:#00F; font-size:60px; font-weight:bold; letter-spacing:4px;
+	font-famisly:journal; 
+	right:14%;
+	top:28%;
+}
+
+#container h1:hover {
+	color:	rgba(0,102,153,1); -moz-text-shadow:2px 2px 2px #0000FF; -webkit-text-shadow:2px 2px 2px #0000FF;
+	-ms-text-shadow:2px 2px 2px #0000FF; -o-text-shadow:2px 2px 2px #0000FF; text-shadow:2px 2px 2px #0000FF;
+	cursor:default; position:absolute;
+}
+#container h2 {
+	position:absolute;
+	color:#00F; font-size:60px; font-weight:bold; letter-spacing:4px;
+	font-family:journal; 
+	right:14%;
+	top: 60%;
+}
+#container h2:hover {
+	color:	rgba(0,102,153,1);
+	-webkit-text-shadow:2px 2px 2px #0000FF; -moz-text-shadow:2px 2px 2px #0000FF; -ms-text-shadow:2px 2px 2px #0000FF;
+	-o-text-shadow:2px 2px 2px #0000FF;
+	text-shadow:2px 2px 2px #0000FF;
+	cursor:default; position:absolute;
+}
+#container p {
+	position:absolute;
+	color:#00F; font-size:60px; font-weight:bold; letter-spacing:6px;
+	font-family:journal; 
+	right:38%;
+	top:1%;
+}
+#container p:hover {
+	color:	rgba(0,102,153,1);text-shadow:2px 2px 2px #0000FF;
+	cursor:default; position:absolute;
+}
+h6 {
+	position:relative; cursor:default; font-size:12px; letter-spacing:3px; font-family:Sears_Tower; color:#FFF;
+	right:-47%; -ms-transform: rotate(-9deg);-o-transform: rotate(-9deg);
+	-webkit-transform: rotate(-9deg); 
+-moz-transform: rotate(-9deg); transform: rotate(-9deg);
+}
+h6:hover {
+	text-shadow:1px 3px 2px #FFF;
+}
+	/*Konec Glave*/
+	/*DODATNE PISAVE */
+@font-face {
+	font-family: "journal";
+	src:url(../Font/journal.ttf);
+	format:("truetype");
+}
+@font-face {
+	font-family:"AquilineTwo";
+	src:url(../Font/AquilineTwo.ttf);
+	format:("truetype");
+}
+@font-face {
+	font-family:"Sears_Tower";
+	src:url(../Font/Sears_Tower.ttf);
+	format:("truetype");
+}
+@font-face {
+	font-family:"ArchitectsDaughter";
+	src:url(../Font/ArchitectsDaughter.ttf);
+	format:("truetype");
+
+}
+	/*Konec dodatnih pisav*/
+	
+#leviokvir p {
+	font-style:none; color:#F00; position:relative; letter-spacing:3px;
+	font-size:10px;	
+	-webkit-text-shadow: 1px 2px 2px #FFF; -moz-text-shadow: 1px 2px 2px #FFF; -ms-text-shadow: 1px 2px 2px #FFF; 
+	-o-text-shadow: 1px 2px 2px #FFF;
+	text-shadow: 1px 2px 2px #FFF;
+	text-align:center;
+	top:-5px;
+}
+
+	/*Footer*/
+#footer h3 {
+		color: #FFF; font-family:ArchitectsDaughter; font-size:13px; position:relative; text-align:center; top:9px;
+}
+#footer h3 a {
+		color:rgba(255,255,255,1); cursor:pointer; text-decoration:none;
+}
+	
+	/*Konec Footer*/
+	
